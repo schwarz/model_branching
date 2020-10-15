@@ -1,0 +1,20 @@
+\begin{tabular}{lrlr}
+\toprule
+\textbf{Heuristic} & \textbf{MAE ↓} & \textbf{\% Be/Eq/Wo} & \textbf{\% Improv.} \\
+\midrule
+            Synced &        456.824 &          0 / 100 / 0 &                0.00 \\
+\midrule
+       Best Last 3 &        455.621 &          57 / 5 / 38 &                0.26 \\
+    Best Improving &        455.667 &          57 / 5 / 39 &                0.25 \\
+\addlinespace
+     Greedy Oracle &        \underline{455.172} &          63 / 37 / 0 &                0.36 \\
+            Random &        456.632 &         36 / 41 / 24 &                0.04 \\
+\midrule
+             Local &        \textbf{451.955} &          57 / 0 / 43 &                1.07 \\
+            Global &        460.755 &          28 / 0 / 72 &               -0.86 \\
+\midrule
+            Static &        487.878 &          25 / 0 / 75 &               -6.80 \\
+\bottomrule
+\end{tabular}
+
+\label{tab:iid_lr01_le2_bs4_Summary}
